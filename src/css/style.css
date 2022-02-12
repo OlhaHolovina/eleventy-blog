@@ -89,6 +89,25 @@ nav ul li a:hover {
   margin: auto;
 }
 
+.preview {
+  display: flex;
+  padding: 20px;
+  border: 2px solid black;
+  position: relative;
+}
+
+.preview .show-more {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.preview img {
+  width: 30%;
+  object-fit: cover;
+  padding-right: 20px;
+}
+
 /*Footer*/
 footer {
   height: 100px;

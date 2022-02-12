@@ -1,5 +1,7 @@
 ---
 title: first post
+description: first post first post first post first post first post first post first post
+preview: ../../img/welcome_screen.jpg
 ---
 
 1. First item
