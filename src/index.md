@@ -1,10 +1,9 @@
 ---
-title: title1
+title: Olha Holovina Blog
 layout: 'index.njk'
 ---
 
-fddf d dfd  d fd f df
-
+<figure><img src="./img/o_h_logo.png" alt=""></figure>
 <ul>
     {% for post in collections.posts -%}
         <li>
