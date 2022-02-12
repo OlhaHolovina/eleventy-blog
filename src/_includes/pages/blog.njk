@@ -1,13 +1,14 @@
 {% include '../parts/header.njk' %}
 
     {% for post in collections.posts -%}
-        <section class="preview">
+        <article class="preview">
             <img src="{{ post.data.preview }}" alt="{{ post.data.title }}">
-            <p>
-                <span>{{ post.data.description }}</span>
+            <section>
+                <h1>{{ title }}</h1>
+                <p>{{ post.data.description }}</p>
                 <a class="show-more" href="{{ post.url }}">show more..</a>
-            </p>
-        </section>
+            </section>
+        </article>
     {% endfor %}
 
 {% include '../parts/footer.njk' %}
