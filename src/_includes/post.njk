@@ -1,7 +1,8 @@
----
-layout: index.njk
----
+{% include 'parts/header.njk' %}
+<h1>{{ title }}</h1>
 
 <article>
     {{ content | safe }}
 </article>
+
+{% include 'parts/footer.njk' %}
