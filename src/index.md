@@ -1,7 +1,7 @@
 ---
 title: Olha Holovina Blog
-layout: 'index.njk'
+layout: './pages/index.njk'
 ---
 
-It's my blog 
+It's my home
 hello
